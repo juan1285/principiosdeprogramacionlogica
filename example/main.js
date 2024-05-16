@@ -7,3 +7,4 @@ pasos para mandar cambios a repositorio desde terminal
 2.-git commit -m "mensaje de lo que mandas al repo"
 3.-git push
 */
+
