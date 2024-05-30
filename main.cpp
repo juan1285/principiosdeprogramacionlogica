@@ -1,21 +1,21 @@
-
 #include <iostream>
 
 int main() {
-    // Declara dos variables para almacenar los números
-    int numero1, numero2;
+   int numero;
 
-    // Solicita al usuario que ingrese el primer número
-    std::cout << "Ingresa el primer número: ";
-    std::cin >> numero1;
+      // Solicita al usuario que ingrese un número
+      std::cout << "Ingresa un número: ";
+      std::cin >> numero;
 
-    // Solicita al usuario que ingrese el segundo número
-    std::cout << "Ingresa el segundo número: ";
-    std::cin >> numero2;
+      // Determina si el número es par o impar
+      if (numero % 2 == 0) {
+          std::cout << "El número " << numero << " es par." << std::endl;
+      } else {
+          std::cout << "El número " << numero << " es impar." << std::endl;
+      }
 
-    // Suma los dos números e imprime el resultado
-    int suma = numero1 + numero2;
-    std::cout << "La suma de " << numero1 << " y " << numero2 << " es: " << suma << std::endl;
+      return 0;
+  }
 
-    return 0;
-}
+
+ 
